@@ -1,0 +1,14 @@
+
+
+For Server : 
+
+sh run.sh <server-port>
+
+ex : sh run.sh 4000
+
+for Client
+
+sh run.sh <absolute_path_to_input_file> <Server_address> <server_port>
+
+sh run.sh /home/rishimittal/Documents/SEM2/DS/Assignment-2/sample.xml 127.0.1.1 4000
+

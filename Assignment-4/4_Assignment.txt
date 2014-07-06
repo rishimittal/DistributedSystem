@@ -1,0 +1,13 @@
+Deadline: April 6th, 11:59 P.M
+
+This assignment involves changes to the client to make it handle a failure of the FileServer.
+
+We will build on assignments 2 and 3 for this.
+
+In this assignment, the client should handle errors/exceptions while reading from a FileServer.
+
+The registry and all instances of FileServer should be first started. Once all FileServers are started, kill 1 or more (not all). 
+
+Then, the multi-threaded FileClient will be launched to read a large file. The threads that are reading from the FileServer instances that are down will get errors. The client has to recover from these errors by stopping this thread.
+
+The other threads will continue reading the file completely by reading different chunks from different FileServers.

@@ -1,0 +1,9 @@
+
+
+Step 1: cd into the Registry folder
+Step 2: sh run.sh <ip-address> <port_number>
+Step 3: cd into the file Server , and run the following command for the number of server instances you 
+		want to run.
+Step 4: sh run.sh <ip-address> <port_number>
+Step 5 : cd into Client Folder
+Step 6 : sh run.sh <filepath> <ip-address> <port-number>
